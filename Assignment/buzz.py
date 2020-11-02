@@ -1,3 +1,0 @@
-from zoo import *
-
-hour()
