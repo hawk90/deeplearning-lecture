@@ -7,3 +7,27 @@
 
 5. 정규화를 하여라
 
+
+
+---
+
+```python
+import socket
+import struct
+
+ip = '192.0.0.1'
+
+struct.unpack("!I", socket.inet_aton(ip))[0]
+```
+
+---
+
+```python
+from datetime import datetime
+import time
+
+ss = "7/7/2017 8:59"
+timestamp = time.mktime(datetime.strptime(ss,'%m/%d/%Y %H:%M').timetuple())
+print(timestamp)
+```
+
