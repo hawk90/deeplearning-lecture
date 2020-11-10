@@ -5,3 +5,8 @@
 3. 2번에서 resize한 이미지를 resize_with_pad를 통하여 128x128로 만들어라
 4. 1, 2, 3번의 이미지를 matplot으로 출력하여라
 
+
+
+### Problem 02
+
+1. swinss-army-ant.jpg를 TFrecordf로 인코딩 디코딩하여라.
