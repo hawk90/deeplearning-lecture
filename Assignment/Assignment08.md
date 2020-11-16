@@ -22,6 +22,7 @@ energy = Example(
         }
     )
 )
+
 date,Appliances,lights,T1,RH_1,T2,RH_2,T3,RH_3,T4,RH_4,T5,RH_5
 ```
 
