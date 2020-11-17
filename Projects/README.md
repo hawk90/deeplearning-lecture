@@ -21,7 +21,8 @@
 
 ### Openpose를 사용하여 수화 인식 - 유세환 
 - Computer Vision 중 Openpose 기능을 사용하여 사람의 움직임을 감지하여 간단한 수화를 인식하는 기능 구현 
-- 학습 데이터는 찾아봐야할 거 같습니다.
+- 참고논문: https://www.researchgate.net/figure/Statistics-of-KETI-sign-language-dataset_tbl1_334150420
+- 데이터셋: 
 
 
 ### 손글씨 데이터 학습을 통한 개인 폰트 제작 or 음성 데이터 학습을 통해 텍스트 데이터 입력 시, 학습된 목소리로 출력 - 김태현
