@@ -3,14 +3,22 @@
 ### 질문에 답을 웹에서 찾아 대답하기, 한국어 문서 추출요약 - 이낙원.
 
   웹에서 답을 찾는게 웹 크롤링뿐인가요? 아니면 컴이 직접 서핑을 하여 검색할수 있는건지?
-  https://www.quora.com/    
+  https://www.quora.com/     https://stackoverflow.com/ 
   https://dacon.io/competitions/official/235671/overview/
  
   https://m.blog.naver.com/PostView.nhn?blogId=tjdudwo93&logNo=221085844907&proxyReferer=https:%2F%2Fwww.google.com%2F
   
   https://arxiv.org/ftp/arxiv/papers/1502/1502.04042.pdf
   
+  https://github.com/digicope/ai_nlp/tree/main/03_RNN_LSTM
   
+  Abstract Learning via Demodulation in a Deep
+Neural Network   https://arxiv.org/ftp/arxiv/papers/1502/1502.04042.pdf
+
+  On Extractive and Abstractive Neural Document Summarization
+with Transformer Language Models  https://arxiv.org/pdf/1909.03186.pdf
+
+
 
 ### 웹크링하여 주제분류해보기 - 오현귀
 
