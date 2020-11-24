@@ -70,3 +70,12 @@ with Transformer Language Models  https://arxiv.org/pdf/1909.03186.pdf
 - 카메라에서 촬영한 영상이나 사진을 파일로 받아 Dataset으로 사용할 생각입니다.
 
 - 추가로, 가능하다면 특정 비트코인의 과거 데이터들로부터 앞으로의 추세가 어떻게 될 것인지 예측하는 프로그램을 만들어보고 싶습니다.
+
+
+
+### K-Fashin, Imagent 등을 활용하여 사용자가 가지고 있는 옷을 기반으로 어울리는 옷을 추천해주는 모델 - 강찬
+- https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset, https://www.aihub.or.kr/aidata/7988 데이터 활용
+- instagram과 국내 무신사 스토어 후기 시스템 활용
+- 전신 데이터에서 외투, 상의 ,하의, 신발 등으로 분류하여 어울리는 조합을 학습 -> 새로운 하나의 옷 종류에 대하여 어울리는 조합을 추천해주는 프로그램을 만들어보고 싶습니다.
+
+- 추가적으로 가능하다면 GAN으로 새로운 디자인을 만드는 모델까지 가능하다면 해보고 싶습니다.
