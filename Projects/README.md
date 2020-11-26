@@ -6,8 +6,8 @@
 
 SRGAN: http://arxiv.org/pdf/1609.04802.pdf
 
-### 질문에 답을 웹에서 찾아 대답하기, 한국어 문서 추출요약 - 이낙원.
-
+### 질문에 답을 웹에서 찾아 대답하기 or 책을 학습한 전문가 chat bot, 한국어 문서 추출요약 - 이낙원.
+ 규칙 기반 ? how
  NLP-progress : https://github.com/sebastianruder/NLP-progress/blob/master/english/summarization.md   
   웹에서 답을 찾는게 웹 크롤링뿐인가요? 아니면 컴이 직접 서핑을 하여 검색할수 있는건지?  https://github.com/SKTBrain/KoBERT
   https://www.quora.com/     https://stackoverflow.com/ 
