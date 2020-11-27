@@ -9,4 +9,12 @@
 
 ### Problem 02
 
-1. swinss-army-ant.jpg를 TFrecordf로 인코딩 디코딩하여라.
+1. ./datasets/cifar10-py 밑에 있는 data_batch_{1~5}까지의 파일을 읽어라
+2. tf.image의 아래의 함수를 참조 하여 Data Agument를 하여라
+   - random_brightness
+   - random_contrast
+   - random_crop, resize
+   - random_flip_left_right
+   - random_flip_up_down
+3. cifar10을  tfrecord파일로 만들어라
+4. 간단한 cnn 모델을 작성하여 학습 하여라
