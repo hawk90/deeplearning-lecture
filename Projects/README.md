@@ -5,12 +5,12 @@
 ```bash
 ├── README.md
 └── 윤상덕
-    ├── inputs.py
-    ├── main.py
-    ├── model.py
-    ├── predict.py
-    ├── preprocessing.py
-    └── train.py
+    ├── inputs.py           # 데이터 로드
+    ├── main.py             #
+    ├── model.py            # 뉴럴 네트워크 모델 정의
+    ├── predict.py          # 학습된 파라미터를 불러와서 실제 데이터로 predict
+    ├── preprocessing.py    # 데이터 전처리
+    └── train.py            # comiple, fit
 ```
 
 <br > 
