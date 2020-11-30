@@ -7,6 +7,7 @@
 └── 윤상덕
     ├── inputs.py
     ├── main.py
+    ├── model.py
     ├── predict.py
     ├── preprocessing.py
     └── train.py
