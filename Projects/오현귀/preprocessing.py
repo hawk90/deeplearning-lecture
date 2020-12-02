@@ -12,11 +12,8 @@ import sys
 okt = Okt()
 kkma = Kkma()
 
-#input_file ="C:\Users\user\ohg\중학생+질문 20200921-3.csv"             #sys.argv[1]
-#output_file ="C:\Users\user\ohg\data\빈도수_중학생+질문 20200921-3.csv" #sys.argv[2]
-
-input_file ="./in_data/중학생+질문 20201005-1(질문).csv"             #sys.argv[1]
-output_file ="./out_data/빈도수_중학생+대답 20201005-1(질문).csv" #sys.argv[2]
+input_file ="./in_data/중학생+질문 20201202(질문).csv"             #sys.argv[1]
+output_file ="./out_data/빈도수_중학생+질문 20201202(질문).csv" #sys.argv[2]
 
 
 #CSV파일을 불러와서 형태소를 분석
