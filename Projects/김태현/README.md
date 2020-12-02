@@ -17,3 +17,31 @@
 ### 사용 모델
 - 기본적으로 GAN을 사용하여 진행
 - original GAN에서 Decoder구조의 부분을 폰트 카테고리를 추가하여 noise를 생성할 수 있도록 변형하여 사용
+
+
+### 12.01
+- AI hub에서 손글씨체 데이터셋과 인쇄체 데이터셋을 모두 사용하여 인쇄체 데이터셋을 사전학습모델에 사용하고 손글씨체 데이터셋을 통해 폰트화 하는 모델 구성을 하려고 했으나, 데이터양이 충분하여 인쇄체 데이터셋만을 가지고 학습하기로 결정
+
+- 여기서 문제는 인쇄체 데이터셋에서는 "어노테이션 바운딩박스"가 없음
+- 그래서 crop -> resize -> padding 과정을 위해 어떻게 crop할 것인지가 관건
+
+<json파일 보기좋게 표시하는 참조 코드>
+
+```
+>>> import json
+>>>
+>>> your_json = '["foo", {"bar":["baz", null, 1.0, 2]}]'
+>>> parsed = json.loads(your_json)
+>>> print(json.dumps(parsed, indent=4, sort_keys=True))
+[
+    "foo", 
+    {
+        "bar": [
+            "baz", 
+            null, 
+            1.0, 
+            2
+        ]
+    }
+]
+```
