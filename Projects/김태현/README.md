@@ -45,3 +45,8 @@
     }
 ]
 ```
+
+
+### 12.02
+- json Parsing
+- 링크 : https://www.notion.so/json-Parsing-f174d3ec95dc45859fb5956345ccbcb6
