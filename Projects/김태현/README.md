@@ -50,3 +50,7 @@
 ### 12.02
 - json Parsing
 - 링크 : https://www.notion.so/json-Parsing-f174d3ec95dc45859fb5956345ccbcb6
+
+### 12.03
+- json Parsing & 데이터 디렉토리로 분류
+- 링크 : https://www.notion.so/img-efe4a9d1e3734fdba71ad5865612401e
