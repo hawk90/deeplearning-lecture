@@ -71,7 +71,8 @@ with Transformer Language Models  https://arxiv.org/pdf/1909.03186.pdf
 
 - Computer Vision 중 Openpose 기능을 사용하여 사람의 움직임을 감지하여 간단한 수화를 인식하는 기능 구현 
 - 참고논문: https://www.researchgate.net/figure/Statistics-of-KETI-sign-language-dataset_tbl1_334150420
-- 데이터셋: AI hub download (https://aihub.or.kr/)
+- 데이터셋: (이전) AI hub download (https://aihub.or.kr/)
+           (변경) https://www.kaggle.com/datamunge/sign-language-mnist
 
 <br >
 
