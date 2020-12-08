@@ -14,16 +14,34 @@ kkma = Kkma()
 
 input_file ="./in_data/중학생+질문 20201202(질문).csv"             #sys.argv[1]
 output_file ="./out_data/빈도수_중학생+질문 20201202(질문).csv" #sys.argv[2]
+output_stopwordfile ="./out_data/불용어제거_빈도수_중학생+질문 20201202(질문).csv" #sys.argv[3]
+
+
+##CSV파일을 불러와서 형태소를 분석
+#filereader = open(input_file,encoding = "UTF8").read()
+##키워드 추출
+#keyWord = okt.nouns(filereader)
+#print("추출된 키워드 : ", keyWord)
 
 
 #CSV파일을 불러와서 형태소를 분석
-filereader = open(input_file,encoding = "UTF8").read()
-#키워드 추출
-keyWord = okt.nouns(filereader)
-print("추출된 키워드 : ", keyWord)
+f = open(input_file,encoding = "UTF8")
+
+#건별읽어오기
+lines = f.readlines()
+
+keyWordList = []
+for line in lines:
+    keyWord = okt.nouns(line)
+    #print(keyWord)
+    keyWordList = keyWordList + keyWord
+
+f.close()
+print("추출된 키워드 : ", keyWordList)
+
 
 #빈도수 추출
-cnt = Counter(keyWord)
+cnt = Counter(keyWordList)
 print("단어별 빈도수 : ", cnt)
 
 #추출된 단어들의 최대500건만
@@ -34,7 +52,7 @@ print("단어별 빈도수(500) :", most100)
 #불용어 가져오기
 sword = open("./stopword/stopword.txt", encoding = "UTF8").read()
 #불용어 제거하기
-keyWord2 = [each_word for each_word in keyWord if each_word not in sword]
+keyWord2 = [each_word for each_word in keyWordList if each_word not in sword]
 print("불용어제거 된 추출 키워드 :",  keyWord2)
 
 #빈도수 추출
