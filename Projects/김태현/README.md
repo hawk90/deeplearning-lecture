@@ -54,3 +54,7 @@
 ### 12.03
 - json Parsing & 데이터 디렉토리로 분류
 - 링크 : https://www.notion.so/img-efe4a9d1e3734fdba71ad5865612401e
+
+### 12.09
+- 데이터 재분류
+- 링크 : https://www.notion.so/3-da7e1922b2654a0fb55052f689e60827
