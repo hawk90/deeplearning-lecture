@@ -18,11 +18,12 @@ df = pd.read_csv(file)
 
 corpus = []
 for i in df['question']:
-    token=okt.morphs(i)
-    corpus.append(token)
+    corpus.append(i)
 
+print('----------------------------')
 vector = CountVectorizer()
 print(vector.fit_transform(corpus).toarray()) # 코퍼스로부터 각 단어의 빈도 수를 기록한다.
+print('----------------------------')
 print(vector.vocabulary_) # 각 단어의 인덱스가 어떻게 부여되었는지를 보여준다.
 
 from sklearn.feature_extraction.text import TfidfVectorizer
